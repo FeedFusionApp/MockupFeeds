@@ -1,0 +1,30 @@
+{
+    "name": "mockupfeeds",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "generate-feed": "node src/index.js",
+        "copy-ressources": "",
+        "generate": "npm run copy-ressources; npm run generate-feed"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FeedFusionApp/MockupFeeds.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FeedFusionApp/MockupFeeds/issues"
+    },
+    "homepage": "https://github.com/FeedFusionApp/MockupFeeds#readme",
+    "dependencies": {
+        "xmlbuilder": "^15.1.1"
+    },
+    "devDependencies": {
+        "copy": "^0.3.2"
+    }
+}
