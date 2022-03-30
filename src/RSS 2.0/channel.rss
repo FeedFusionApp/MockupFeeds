@@ -1,0 +1,6 @@
+<channel>
+    <title>RSS 2.0 Example</title>
+    <link>${DIR}/html</link>
+    <description>This Example adheres to RSS 2.0 Specification</description>
+    <language>en-us</language>
+</channel>
